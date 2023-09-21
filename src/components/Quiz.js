@@ -82,11 +82,11 @@ export default function Quiz() {
           </div>
         </div>
       ))}
-      <div class="card text-center">
-        <div class="card-header">Online Test Result</div>
-        <div class="card-body">
-          <h5 class="card-title">Result</h5>
-          <p class="card-text">Your Score is : <strong>{calculateScore()}</strong></p>
+      <div className="card text-center">
+        <div className="card-header">Online Test Result</div>
+        <div className="card-body">
+          <h5 className="card-title">Result</h5>
+          <p className="card-text">Your Score is : <strong>{calculateScore()}</strong></p>
         </div>
       </div>
     </div>
